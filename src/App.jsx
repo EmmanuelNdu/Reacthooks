@@ -5,6 +5,7 @@ import HookCounter2 from './components/HookCounter2'
 import HookCounter3 from './components/HookCounter3'
 import HookCounter4 from './components/HookCounter4'
 import CounterEffect1 from './components/CounterEffect1'
+import HookMouse from './components/HookMouse'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
     {/* <HookCounter />
     <HookCounter2 />
     <HookCounter3 />
-    <HookCounter4 /> */}
-    <CounterEffect1 />
+    <HookCounter4 />
+    <CounterEffect1 /> */}
+    <HookMouse />
     </>
   )
 }
