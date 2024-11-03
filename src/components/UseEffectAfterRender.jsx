@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react' // useEffect runs after every render
 
-const CounterEffect1 = () => {
+const  UseEffectAfterRender = () => {
 
     const [count, setCount] = useState(0)
     const [name, setName] = useState('')
@@ -17,4 +17,4 @@ const CounterEffect1 = () => {
   )
 }
 
-export default CounterEffect1
+export default  UseEffectAfterRender
