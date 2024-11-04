@@ -7,6 +7,7 @@ import HookCounter4 from './components/HookCounter4'
 import UseEffectAfterRender from './components/UseEffectAfterRender'
 import HookMouse from './components/HookMouse'
 import MouseContainer from './components/MouseContainer'
+import IncorrectIndependecyUse from './components/IncorrectIndependecyUse'
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
     <HookCounter3 />
     <HookCounter4 />
     <UseEffectAfterRender />
-    <HookMouse /> */}
-    <MouseContainer />
+    <HookMouse />
+    <MouseContainer /> */}
+    <IncorrectIndependecyUse />
     </>
   )
 }
