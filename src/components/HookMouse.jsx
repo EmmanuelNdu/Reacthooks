@@ -14,6 +14,11 @@ const HookMouse = () => {
     useEffect (() => {
         console.log('useEffect called')
         window.addEventListener('mousemove', logMousePosition)
+
+        return () => {
+          console.log('component Unmounting code')
+          window.removeEventListener('mousemove', logMousePosition)
+        }
     },[])
   return (
     <div>
