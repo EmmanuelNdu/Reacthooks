@@ -9,6 +9,7 @@ import HookMouse from './components/HookMouse'
 import MouseContainer from './components/MouseContainer'
 import IncorrectIndependecyUse from './components/IncorrectIndependecyUse'
 import DataFetching from './components/DataFetching'
+import DataFetching2 from './components/Datafetching2'
 
 function App() {
 
@@ -21,8 +22,9 @@ function App() {
     <UseEffectAfterRender />
     <HookMouse />
     <MouseContainer /> 
-    <IncorrectIndependecyUse /> */}
-    <DataFetching />
+    <IncorrectIndependecyUse /> 
+    <DataFetching /> */}
+    <DataFetching2 />
     </>
   )
 }
