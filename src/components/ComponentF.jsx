@@ -1,3 +1,4 @@
+// This is a longer way to do it, refer to componentE for a simpler method
 import React from 'react'
 import { UserContext, ChannelContext } from '../App'
 
