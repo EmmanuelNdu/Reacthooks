@@ -12,6 +12,7 @@ import IncorrectIndependecyUse from './components/IncorrectIndependecyUse'
 import DataFetching from './components/DataFetching'
 import DataFetching2 from './components/DataFetching2'
 import ComponentC from './components/ComponentC'
+import ReducerSimpleStateAction from './components/ReducerSimpleStateAction'
 
 export const UserContext = React.createContext()
 export  const ChannelContext = React.createContext()
@@ -30,12 +31,13 @@ function App() {
 <MouseContainer /> 
 <IncorrectIndependecyUse /> 
 <DataFetching /> 
-<DataFetching2 /> */}
+<DataFetching2 /> 
 <UserContext.Provider value={'Emmanuel'}>
   <ChannelContext.Provider value={'CodeEvolution'}>
   <ComponentC />
   </ChannelContext.Provider>
-</UserContext.Provider>
+</UserContext.Provider> */}
+<ReducerSimpleStateAction />
 </>
   )
 }
