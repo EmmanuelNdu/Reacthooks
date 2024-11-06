@@ -14,6 +14,7 @@ import DataFetching2 from './components/DataFetching2'
 import ComponentC from './components/ComponentC'
 import ReducerSimpleStateAction from './components/ReducerSimpleStateAction'
 import ReducerComplexStateAction from './components/ReducerComplexStateAction'
+import MultipleReducer from './components/MultipleReducer'
 
 export const UserContext = React.createContext()
 export  const ChannelContext = React.createContext()
@@ -38,8 +39,9 @@ function App() {
   <ComponentC />
   </ChannelContext.Provider>
 </UserContext.Provider> 
-<ReducerSimpleStateAction /> */}
-<ReducerComplexStateAction />
+<ReducerSimpleStateAction /> 
+<ReducerComplexStateAction /> */}
+<MultipleReducer />
 </>
   )
 }
