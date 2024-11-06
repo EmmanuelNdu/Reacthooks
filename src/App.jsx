@@ -13,6 +13,7 @@ import DataFetching from './components/DataFetching'
 import DataFetching2 from './components/DataFetching2'
 import ComponentC from './components/ComponentC'
 import ReducerSimpleStateAction from './components/ReducerSimpleStateAction'
+import ReducerComplexStateAction from './components/ReducerComplexStateAction'
 
 export const UserContext = React.createContext()
 export  const ChannelContext = React.createContext()
@@ -36,8 +37,9 @@ function App() {
   <ChannelContext.Provider value={'CodeEvolution'}>
   <ComponentC />
   </ChannelContext.Provider>
-</UserContext.Provider> */}
-<ReducerSimpleStateAction />
+</UserContext.Provider> 
+<ReducerSimpleStateAction /> */}
+<ReducerComplexStateAction />
 </>
   )
 }
